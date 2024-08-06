@@ -22,12 +22,12 @@ ALLOWED_HOSTS укажите через запятую, какие хосты с
 Выглядеть должно примерно так:
 
 ```
-PASSWORD_DB = 'osim5'
-ENGINE_DB = 'django.db.backends.postgresql_psycopg2'
-HOST_DB = 'checkpoint.devman.org'
-PORT_DB = '5434'
-NAME_DB = 'checkpoint'
-USER_DB ='guard'
+DB_PASSWORD = 'osim5'
+DB_ENGINE = 'django.db.backends.postgresql_psycopg2'
+DB_HOST = 'checkpoint.devman.org'
+DB_PORT = '5434'
+DB_NAME = 'checkpoint'
+DB_USER ='guard'
 SECRET_KEY = 'REPLACE_ME'
 DEBUG = True
 ```
