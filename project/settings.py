@@ -1,6 +1,8 @@
 import os
 from dotenv import load_dotenv
+
 load_dotenv()
+
 DATABASES = {
     'default': {
         'ENGINE': os.environ['ENGINE_DB'],
